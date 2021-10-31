@@ -18,12 +18,10 @@ hr{
 .latest-news{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-column-gap: 30px;
-  background-color: ;
   border-radius: 16px;
+  background-color: #F6F6F8;
 }
 .news1,.news2,.news3,.news4{
-
   display: grid;
   grid-template-columns: 1fr 1fr;
 
@@ -31,10 +29,27 @@ hr{
 .latest-news-container{
   padding: 25px 80px 40px 70px;
 }
+.para{
+  font-size: 12px;
+}
+.para p{
+  margin-top: 5px;
+}
+
+.pic img{
+  height: 100%;
+  border-radius: 16px;
+}
 
 img{
   border-top-left-radius: 16px;
   border-top-right-radius: 16px;
+}
+.h1{
+  text-decoration: underline;
+  font-family: 'Arimo', sans-serif;
+  color: #C60021;
+  font-weight: 700;
 }
 
 .first img{
@@ -55,13 +70,18 @@ img{
 }
 h6{
   display: inline-block;
-  color: #C60021;
+  color: black;
 }
 h6:hover{
   text-decoration: underline;
+  color: #C60021;
 }
 .headlines{
+  font-family: 'Arimo', sans-serif;
   margin-left: 70px;
+  text-decoration: underline;
+  color: #C60021;
+  font-weight: 700;
 }
 /* h1{
   color: #C60021;
@@ -72,7 +92,7 @@ h6:hover{
   display: grid;
   grid-template-rows: 0.7fr 1fr;
   grid-row-gap: 20px;
-  padding: 30px 50px 30px 50px;
+  padding: 0px 50px 30px 50px;
 }
 .row1{
   display: grid;
@@ -115,6 +135,9 @@ h6:hover{
   background: #F6F6F8;
 }
 
+h5{
+  color: #C60021;
+}
 .first-right{
   padding: 20px;
 }
@@ -248,20 +271,24 @@ opacity: 0;
   opacity: 0;
 }
 
-.header h1{
-  font-family: 'Playfair Display', serif;
-  font-size: 60px;
-  text-align: center;
-}
 span{
   font-family: 'Libre Baskerville', serif;
   font-size: 55px;
 }
 .header{
   background: #E3E3E3;
+  text-align: center;
+}
+.h3{
+  font-family: 'Playfair Display', serif;
+  font-size: 60px;
+  display: inline-block;
 }
 a{
   color: black;
   text-decoration: none;
   display: inline;
+}
+.h3:hover{
+  color: black;
 }

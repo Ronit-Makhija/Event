@@ -10,7 +10,10 @@ img{
 div{
   border-radius: 16px;
 }
-
+.h2{
+  color: #C60021;
+  font-size: 3.5rem;
+}
 .demo{
   position: absolute;
   bottom: 0;
@@ -36,7 +39,7 @@ div{
 .column-1{
   display: grid;
   grid-template-rows: 1fr 1fr;
-  grid-row-gap: 60px;
+  grid-row-gap: 30px;
   border-radius: 16px;
 }
 .column-2{
@@ -59,8 +62,12 @@ div{
 }
 .column-1 img{
   width: 100%;
+  height: 70%;
 }
 .column1-lower{
+  height: 100%;
+}
+.column1-upper{
   height: 100%;
 }
 .column1-lower img{
@@ -80,6 +87,10 @@ div{
 .column1-lower, .column1-upper, .row1-sports, .row2-sports, .row3-sports, .row4-sports, .row4-sports, .row5-sports, .row6-sports{
   background: #F6F6F8;
 
+}
+
+.row6-sports img{
+  height: 50%;
 }
 .column1-lower:hover, .column1-upper:hover, .row1-sports:hover, .row2-sports:hover, .row3-sports:hover, .row4-sports:hover,
 .row5-sports:hover , .row6-sports:hover{
@@ -105,7 +116,7 @@ h6{
   display: inline-block;
   color: black;
 }
-.sports-btn{
+.politics-btn{
   color: #C60021;
 }
 h6:hover{
